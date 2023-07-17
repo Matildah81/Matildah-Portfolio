@@ -133,6 +133,15 @@ p {
   color: var(--branding-color);
   
  }
+ footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+ }
+ footer .email-link:hover {
+  color: var(--branding-color);
+ }
  
 
 @media (max-width: 900px) {
@@ -168,4 +177,6 @@ p {
   border-radius: 8px;
   margin: 0;
 }
-  
+  .portfolio {
+    text-decoration: none;
+  }
