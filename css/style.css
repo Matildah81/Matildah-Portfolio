@@ -142,7 +142,38 @@ p {
  footer .email-link:hover {
   color: var(--branding-color);
  }
- 
+
+ footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+
+ }
+ footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+ }
+
+ .matildah-photo {
+  border-radius: 8px;
+  margin: 0;
+}
+
+.coffee {
+  
+  border-radius: 8px;
+  margin: 0;
+}
+.portfolio {
+    text-decoration: none;
+  }
+
+  footer {
+    margin: 60px 0;
+  }
 
 @media (max-width: 900px) {
   h1 {
@@ -167,16 +198,3 @@ p {
     padding: 0;
   }
 }
-.matildah-photo {
-  border-radius: 8px;
-  margin: 0;
-}
-
-.coffee {
-  
-  border-radius: 8px;
-  margin: 0;
-}
-  .portfolio {
-    text-decoration: none;
-  }
